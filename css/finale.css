@@ -24,6 +24,7 @@ html {
 
 #center.beta .top,
 #center.beta .bottom {
+  padding: 5px;
   height: 30%;
   width: 100%;
   float: left;
