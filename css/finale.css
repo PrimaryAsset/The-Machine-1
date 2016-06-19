@@ -32,6 +32,16 @@ html {
   box-sizing: content-box;
 }
 
+#center.beta .top {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+#center.beta .bottom {
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
 #center.beta .top p,
 #center.beta .middle p {
   text-align: left;
