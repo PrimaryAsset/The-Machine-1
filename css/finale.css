@@ -43,7 +43,8 @@ html {
 }
 
 #center.beta .top p,
-#center.beta .middle p {
+#center.beta .middle p,
+#center.beta .bottom p {
   text-align: left;
   margin: 0;
   padding-left: 3px;
