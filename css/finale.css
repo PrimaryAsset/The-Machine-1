@@ -60,6 +60,7 @@ html {
   background-color: rgba(0, 0, 0, 0.7);
   border: solid thin white;
   box-sizing: content-box;
+  padding: 5px;
 }
 
 #center.beta .middle p {
