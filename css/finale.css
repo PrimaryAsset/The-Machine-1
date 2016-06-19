@@ -19,6 +19,7 @@ html {
   text-transform: uppercase;
   text-align: center;
   border-radius: 5px;
+  color: white;
 }
 
 #center.beta .top,
@@ -26,7 +27,7 @@ html {
   height: 30%;
   width: 100%;
   float: left;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.95);
   border: solid thin white;
   box-sizing: content-box;
 }
@@ -43,14 +44,13 @@ html {
   height: 30%;
   width: 100%;
   float: left;
-  background-color: rgba(0, 0, 0, 0.95);
+  background-color: rgba(0, 0, 0, 0.7);
   border: solid thin white;
   box-sizing: content-box;
   padding: 5px 0;
 }
 
 #center.beta .middle p {
-  color: white;
   line-height: 24px;
   font-size: 28px;
   padding-left: 10px;
