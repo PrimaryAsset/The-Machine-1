@@ -22,9 +22,6 @@ html {
   color: white;
 }
 
-#center div {
-  padding: 5px;
-}
 
 #center.beta .top,
 #center.beta .bottom {
@@ -34,6 +31,7 @@ html {
   background-color: rgba(0, 0, 0, 0.95);
   border: solid thin white;
   box-sizing: content-box;
+  padding: 5px;
 }
 
 #center.beta .top {
