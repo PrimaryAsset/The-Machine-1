@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Machine &ndash; Finale</title>
+    <link rel="stylesheet" href="css/finale.css">
+  </head>
+<body>
+  <div id="center" class="beta">
+    <div class="top">
+      <p style="font-weight: bold; line-height: 24px;">
+        Samaritan
+      </p>
+      <p style="text-transform: none; font-size: 12px; line-height: 26px;">
+        &nbsp;v.978.0.06.51
+      </p>
+    </div>
+    <div class="middle">
+      <p>
+        Beta Test Initiating
+      </p>
+      <div class="cursor"></div>
+    </div>
+    <div class="bottom">
+    </div>
+  </div>
+  <script src="ie.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.tubular/1.0.1/jquery.tubular.1.0.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('body').tubular({videoId: 'McSkIgXR1C0'});
+      if(ie()) {
+        $('body').html("<h1>Internet Explorer is not currently supported!</h1>");
+      }
+    });
+  </script>
+</body>
+</html>
