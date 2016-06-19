@@ -22,9 +22,12 @@ html {
   color: white;
 }
 
+#center div {
+  padding: 5px;
+}
+
 #center.beta .top,
 #center.beta .bottom {
-  padding: 5px;
   height: 30%;
   width: 100%;
   float: left;
