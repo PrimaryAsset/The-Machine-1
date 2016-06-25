@@ -81,7 +81,7 @@ html {
 }
 
 @keyframes blink-empty {
-  50% {background-color: white;}
+  50% {background-color: black;}
 }
 
 @media all and (max-width: 450px) {
